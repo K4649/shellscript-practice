@@ -1,5 +1,5 @@
 #!/bin/sh
-DATE=$(date +%Y/%m/%d)
+DATE=$(date +%Y%m%d)
 echo $DATE
 
 
