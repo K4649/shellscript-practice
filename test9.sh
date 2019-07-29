@@ -1,12 +1,12 @@
 #!/bin/sh
 
 i=1
-a="kaime"
+a="回目"
 while [ $i -le 3 ] 
 do
-NUM=$i$a
-echo $NUM
-i=$((i+1))
+ NUM=$i$a
+ echo $NUM
+ i=$((i+1))
 done
 
 #while文で3回ループさせて以下のように出力させる
