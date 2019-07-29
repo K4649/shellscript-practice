@@ -1,3 +1,5 @@
+#!/bin/sh
+
 i=1
 a="kaime"
 while [ $i -le 3 ] 
