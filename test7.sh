@@ -1,3 +1,5 @@
+#!/bin/sh
+
 case $i in
 $1)
 echo "innsuuha1desu";;
