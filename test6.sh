@@ -6,7 +6,7 @@ then
  ls-l $1
 exit 0
 else
- echo "era-syuuryou"
+ echo "エラー終了"
 exit 1
 fi
 
