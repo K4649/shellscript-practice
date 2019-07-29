@@ -1,6 +1,6 @@
 #!/bin/sh
 
-case $i in
+case $1 in
  $1)
    echo "引数は1です";;
  $2)
