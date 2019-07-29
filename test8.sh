@@ -1,8 +1,8 @@
 #!/bin/sh
 
-for file in "$@"
+for i in $@
 do
-echo $i
+ echo $i
 done
 
 #引数に文字列を1つ以上与えて、ループ処理で全ての引数の文字列をechoで表示させる
