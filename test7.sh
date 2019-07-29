@@ -1,12 +1,12 @@
 #!/bin/sh
 
 case $i in
-$1)
-echo "innsuuha1desu";;
-$2)
-echo "innsuuha2desu";;
-*)
-echo "tadasiihikisuuwonyuuryokusitene";;
+ $1)
+   echo "引数は1です";;
+ $2)
+   echo "引数は2です";;
+ *)
+   echo "正しい引数を入力してください";;
 esac
 
 
