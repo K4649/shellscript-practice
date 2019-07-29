@@ -1,3 +1,5 @@
+#!/bin/sh
+
 ls -l $1 >/dev/null 2>&1
 if [$? = 0 ]
 then
