@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ ! $# -eq 1 ]
  then 
   echo "第1引数にディレクトリを指定"
