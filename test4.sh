@@ -1,10 +1,10 @@
 #!/bin/sh
 
-if [$#=0]
+if [ $#=0 ]
 then
- echo "insuuari"
+ echo "引数あり"
 else
- echo "insuunasi"
+ echo "引数なし"
 fi
 
 #シェルを実行した際に、引数付きで実行すると「引数あり」、引数なしで実行すると「引数なし」と表示されるようにする。
